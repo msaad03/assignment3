@@ -1,0 +1,519 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    box-shadow: 2px 2px 5px #316DC3;
+    opacity: 0.9;
+    background: #fff;
+}
+
+.head-main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: #316DC3;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+}
+
+.left-div {
+    width: 300px;
+}
+
+.middle-div {
+    text-align: center;
+    padding-top: 3px;
+    width: 600px;
+}
+
+.right-div {
+    padding: 5px;
+    max-width: 300px;
+}
+
+.head-button {
+    border: 1px solid black;
+    background-color: #F4F4F4;
+    font-size: 11px;
+    display: inline;
+    padding: 7px;
+    color: #427900;
+}
+
+.social-icons {
+    margin: 15px 0px 0px 0px;
+}
+
+.middle-inner-div {
+    margin: 10px 0px 0px 0px;
+}
+
+.right-inner-div {
+    margin: 5px 0px 0px 0px;
+}
+
+.fa {
+    padding: 2px;
+    font-size: 15px;
+    height: 20px;
+    width: 35px;
+    text-align: center;
+    text-decoration: none;
+    float: left;
+}
+
+.left-div,
+li {
+    list-style: none;
+}
+
+.left-div .fa:hover {
+    transition-duration: 0.5s;
+    background-color: #9186FA;
+    opacity: 0.7;
+}
+
+.fa-facebook {
+    color: white;
+}
+
+.fa-twitter {
+    color: white;
+}
+
+.fa-google {
+    color: white;
+}
+
+.fa-instagram {
+    color: white;
+}
+
+.fa-youtube {
+    color: white;
+}
+
+li a.nav-link {
+    font-size: 14px;
+}
+
+body {
+    font-family: Verdana, sans-serif;
+}
+
+.mySlides {
+    display: none;
+}
+
+img {
+    vertical-align: middle;
+}
+
+
+/* Slideshow container */
+
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+}
+
+
+/* Caption text */
+
+.text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+}
+
+
+/* Number text (1/3 etc) */
+
+.numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+
+/* The dots/bullets/indicators */
+
+.dot {
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active a {
+    border-radius: .99rem;
+    background-color: blue;
+}
+
+.active {
+    background-color: white;
+}
+
+
+/* Fading animation */
+
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+    from {
+        opacity: .4
+    }
+    to {
+        opacity: 1
+    }
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+    to {
+        opacity: 1
+    }
+}
+
+li a.nav-link {
+    font-size: 14px;
+}
+
+.text-div {
+    background-color: #f7f8fa;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: grey;
+}
+
+#intro-head {
+    margin-left: 32%;
+}
+
+.monthly-div {
+    background-color: #412DFF;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.monthly01-div {
+    width: 250px;
+}
+
+.monthly02-div {
+    width: 250px;
+}
+
+.monthly03-div {
+    width: 250px;
+}
+
+.monthly04-div {
+    width: 250px;
+}
+
+#font-monthly-div {
+    font-size: 14px;
+    font-family: 'Merriweather';
+    color: #fff;
+}
+
+#font-doing-div {
+    margin-top: 10px;
+    font-size: 18px;
+    font-family: 'Merriweather', serif;
+    color: #316DC3;
+}
+
+#font-doings-div {
+    margin-left: 20px;
+    margin-top: 10px;
+    font-size: 16px;
+    font-family: 'Merriweather', serif;
+    color: #316DC3;
+}
+
+#font-event-div {
+    margin-top: 10px;
+    font-size: 28px;
+    font-family: 'Merriweather', serif;
+    color: #316DC3;
+}
+
+.bg-silver-light {
+    background-color: #f7f8fa;
+}
+
+#doing-head {
+    margin-top: 50px;
+    margin-left: 120px;
+}
+
+.doing-div {
+    border: 1px solid #f7f8fa;
+    padding-bottom: 25px;
+}
+
+.p-15 {
+    padding: 15px !important;
+}
+
+.section-content .text-center {
+    border: 1px solid #f7f8fa;
+    padding: 25px 50px 25px 50px !important;
+    box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.16);
+}
+
+h3 {
+    font-size: 24px;
+}
+
+#mar-color {
+    color: grey;
+}
+
+hr {
+    height: 1px;
+    color: green;
+    background-color: grey;
+    border: none;
+}
+
+.mission-div {
+    margin-top: 50px;
+}
+
+#font-mission-div {
+    margin-top: 10px;
+    font-size: 25px;
+    font-family: 'Merriweather', serif;
+    font-weight: 600;
+    line-height: 1.42857143;
+    color: #316DC3;
+}
+
+#image-mission {
+    margin-top: 3px;
+    margin-left: 20px;
+}
+
+#gallery .col {
+    margin-bottom: 70px !important;
+}
+
+.footer {
+    padding-top: 50px;
+    background-color: #252720;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#usefulLink {
+    color: white;
+    font-family: 'Merriweather', serif;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.margin-div {
+    margin-bottom: 40px;
+}
+
+#margin-para {
+    margin-top: 15px;
+}
+
+.footer02 {
+    padding: 10px;
+    color: white;
+    font-family: 'Merriweather', serif;
+    background-color: #316DD9;
+}
+
+@media only screen and (max-width: 300px) {
+    .text {
+        font-size: 11px
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    #intro-head {
+        margin-left: 20%;
+        width: 55%;
+    }
+    #doing-head {
+        margin-left: 20%;
+        width: 55%;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .left-div {
+        margin-left: 25%;
+    }
+    #logo-resp {
+        width: 200px;
+        height: 50px;
+    }
+    #intro-head {
+        margin-left: 20%;
+        width: 50%;
+    }
+    #doing-head {
+        margin-left: 2%;
+        width: 50%;
+    }
+    .monthly01-div,
+    .monthly02-div,
+    .monthly03-div,
+    .monthly04-div {
+        padding: 20px;
+    }
+    #gallery {
+        width: 95%;
+    }
+    #mob-look {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .left-div {
+        margin-left: 25%;
+    }
+    #logo-resp {
+        width: 200px;
+        height: 50px;
+    }
+    #intro-head {
+        margin-left: 20%;
+        width: 50%;
+    }
+    #doing-head {
+        margin-left: 2%;
+        width: 50%;
+    }
+    .monthly01-div,
+    .monthly02-div,
+    .monthly03-div,
+    .monthly04-div {
+        padding: 20px;
+    }
+    .column {
+        -ms-flex: 100%;
+        flex: 100%;
+        max-width: 100%;
+    }
+}
+
+.animated-icon3 {
+    width: 30px;
+    height: 20px;
+    position: relative;
+    margin: 0px;
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+    -webkit-transition: .5s ease-in-out;
+    -moz-transition: .5s ease-in-out;
+    -o-transition: .5s ease-in-out;
+    transition: .5s ease-in-out;
+    cursor: pointer;
+}
+
+.animated-icon3 span {
+    display: block;
+    position: absolute;
+    height: 3px;
+    width: 100%;
+    border-radius: 9px;
+    opacity: 1;
+    left: 0;
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+    -webkit-transition: .25s ease-in-out;
+    -moz-transition: .25s ease-in-out;
+    -o-transition: .25s ease-in-out;
+    transition: .25s ease-in-out;
+}
+
+.animated-icon3 span {
+    background: #CCC;
+}
+
+.animated-icon3 span:nth-child(1) {
+    top: 0px;
+    -webkit-transform-origin: left center;
+    -moz-transform-origin: left center;
+    -o-transform-origin: left center;
+    transform-origin: left center;
+}
+
+.animated-icon3 span:nth-child(2) {
+    top: 10px;
+    -webkit-transform-origin: left center;
+    -moz-transform-origin: left center;
+    -o-transform-origin: left center;
+    transform-origin: left center;
+}
+
+.animated-icon3 span:nth-child(3) {
+    top: 20px;
+    -webkit-transform-origin: left center;
+    -moz-transform-origin: left center;
+    -o-transform-origin: left center;
+    transform-origin: left center;
+}
+
+.animated-icon3.open span:nth-child(1) {
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+    top: 0px;
+    left: 8px;
+}
+
+.animated-icon3.open span:nth-child(2) {
+    width: 0%;
+    opacity: 0;
+}
+
+.animated-icon3.open span:nth-child(3) {
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    top: 21px;
+    left: 8px;
+}
